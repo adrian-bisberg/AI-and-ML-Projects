@@ -4,8 +4,8 @@ Collection of Python projects in Machine Learning and Artificial Intelligence. E
 # Directory #
 
   - Decision Trees
-    - Decision Tree 1 (Categorial Decision Tree Predictor for Discrete Features)
-    - Decision Tree 2 (Cataegorical Decision Tree Predictor for Continuous features with Binary Splits)
+    - Cataegorical Decision Tree Predictor for Continuous features with Binary Splits
     
   - Chat Bot Project
+    - 
   
