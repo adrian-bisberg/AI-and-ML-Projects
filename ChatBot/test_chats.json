@@ -1,0 +1,35 @@
+{"intents": [
+    {"tag": "greeting",
+     "inputs": ["Hello there", "Hi friend"],
+     "responses": ["Hello and welcome", "Hi, welcome", "Hi there, welcome to the site"]
+    },
+    {"tag": "name",
+     "inputs": ["Who am I speaking with?", "Can I ask your name?"],
+     "responses": ["I am smart bot", "You can call be smart bot", "My name is smart bot"]
+    },
+    {"tag": "help",
+     "inputs": ["How can I get some help?", "Could you help me out today"],
+     "responses": ["What do you need help with today?", "What do you need?", "What can I do for you?"]
+    },
+    {"tag": "new",
+     "inputs": ["I am a new user of the system", "I want to get started"],
+     "responses": ["Please use this link to make a new account", "You can join at this link", "Follow this link to make a new account"]
+    },
+    {"tag": "forgot",
+    "inputs": ["I think I forgot my password", "could you get me my username?"],
+    "responses": ["Use this link to reset your username or passcode", "Follow this link to reset your information"]
+    },
+    {"tag": "complaint",
+    "inputs": ["That is not working for me", "I want to complain please"],
+    "responses": ["I'm sorry you're not satisfied, please you this link to send a note to our team"]
+    },
+    {"tag": "thanks",
+    "inputs": ["Thanks a bunch"],
+    "responses": ["You're welcome! Is there anything else I can do?", "No problem, how else can I help?", "You are welcome. Do you need any more help?"]
+    },
+    {"tag": "bye",
+    "inputs": ["See ya!", "Goodbye for now"],
+    "responses": ["Bye now! Feel free to type 'exit' when you are ready to leave", "Goodbye! Please type 'exit' when you want to leave"]
+    }
+]
+}

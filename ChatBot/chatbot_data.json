@@ -1,0 +1,35 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey there", "Is anyone there?", "Hello", "Good day", "hey good morning", "Are you there?", "Is someone there?", "Hey"],
+     "responses": ["Hello and welcome", "Hi, welcome", "Hi there, welcome to the site"]
+    },
+    {"tag": "name",
+     "patterns": ["Who is this?", "Who is there?", "What is your name?", "Who are you", "Who am I talking to?", "Who is talking?", "Who is this", "what should I call you", "how do I call you", "can I ask your name"],
+     "responses": ["I am smart bot", "You can call be smart bot", "My name is smart bot"]
+    },
+    {"tag": "help",
+     "patterns": ["I need help", "How do I use this?", "How can you help", "I need some assistance", "what can you do to help me", "what can you do for me", "could you help me out please", "please help me", "how do I use this?", "please help", "could you assist me"],
+     "responses": ["What do you need help with today?", "What do you need?", "What can I do for you?"]
+    },
+    {"tag": "new",
+     "patterns": ["I am a new user", "I need a new account", "I don't have an account yet", "help with my account", "I need to make a new account", "I do not have an account", "I have no account", "I am a new user", "I want to get started", "start an account", "I need help setting up", "I want to set up an account", "need to open an account" ],
+     "responses": ["Please use this link to make a new account", "You can join at this link", "Follow this link to make a new account"]
+    },
+    {"tag": "forgot",
+    "patterns": ["I forgot my username", "I lost my password", "I need to recover my account", "I forgot my information", "How do I recover my password?", "help change password", "lost my passcode", "I need a new passcode", "what is my password", "I can not log in", "I want to recover my account", "I forgot my username", "how to get my username", "find my username", "I cannot log in"],
+    "responses": ["Use this link to reset your username or passcode", "Follow this link to reset your information"]
+    },
+    {"tag": "complaint",
+    "patterns": ["I am not satisfied", "That did not work", "I want a human to talk to", "I need to complain", "That does not help me", "I want to file a complaint", "I am not happy", "Let me talk to the manager", "it did not work", "why are you not a human", "how do I talk to someone else", "this is not working"],
+    "responses": ["I'm sorry you're not satisfied, please you this link to send a note to our team"]
+    },
+    {"tag": "thanks",
+    "patterns": ["Thanks so much", "Thank you for that", "Thanks!", "Great, thank you", "I appreciate that"],
+    "responses": ["You're welcome! Is there anything else I can do?", "No problem, how else can I help?", "You are welcome. Do you need any more help?"]
+    },
+    {"tag": "bye",
+    "patterns": ["Goodbye then", "I am all finished", "I do not need anything else", "Bye", "goodbye now", "that is all I needed", "see ya", "later", "How do I leave?", "I need to go", "I am going now", "bye bye"],
+    "responses": ["Bye now! Feel free to type 'exit' when you are ready to leave", "Goodbye! Please type 'exit' when you want to leave"]
+    }
+]
+}
